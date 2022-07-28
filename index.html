@@ -15,93 +15,93 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!-- Navigation Section Start -->
-    <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">DigiPro</a>
-                <div>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item px-4">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item px-4">
-                                <a class="nav-link" href="#">Courses</a>
-                            </li>
-                            <li class="nav-item px-4">
-                                <a class="nav-link" href="#">Deals</a>
-                            </li>
-                            <li class="nav-item px-4">
-                                <a class="nav-link" href="#">Success</a>
-                            </li>
-                            <li class="nav-item px-4">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item px-4">
-                                <a class="nav-link" href="#">Register</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                  </li>                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Deals</a>
+                  </li>                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Success</a>
+                  </li>                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>                  
+                </ul>
                 <div>
                     <button class="btn btn-outline-success" type="submit">Register</button>
                 </div>
+              </div>
             </div>
-        </nav>
+          </nav>
         <!-- Navigation Section End -->
 
         <!-- Slider Start -->
-        <section>
-            <div id="carouselExampleCaptions" class="carousel slide position-relative carousel-fade" data-bs-ride="false">
+        <section class="container">
+            <div id="carouselExampleCaptions" id="carouselExampleInterval" class="carousel slide position-relative" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"    class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
+                    aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+                    aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active" data-bs-interval="4000">
                         <div style="background-color:black;">
                             <img src="./images/cover/cover-1.png" class="d-block w-100" style="opacity: .5;" alt="...">
                         </div>
-                        <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle w-75">
+                        <div
+                            class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle w-75">
                             <h1 style="font-family: 'Roboto Mono', monospace;">Let the career begin with <br> Confidence in skills</h1>
                             <p class="pt-4 pb-4">With experienced mentors and updated curriculum, DigiPro Learning Institute <br> is ready to advance your career. Choose your favorite course today from <br> our more than 30 trendy courses.</p>
                             <button type="button" class="btn btn-primary btn-lg">Get Started</button>
                         </div>
                     </div>
-                    <div class="carousel-item active">
+                    <div class="carousel-item" data-bs-interval="2000">
                         <div style="background-color:black;">
                             <img src="./images/cover/cover-2.jpg" class="d-block w-100" style="opacity: .5;" alt="...">
                         </div>
-                        <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle w-75">
+                        <div
+                            class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle w-75">
                             <h1 style="font-family: 'Roboto Mono', monospace;">Let the career begin with <br> Confidence in skills</h1>
                             <p class="pt-4 pb-4">With experienced mentors and updated curriculum, DigiPro Learning Institute <br> is ready to advance your career. Choose your favorite course today from <br> our more than 30 trendy courses.</p>
                             <button type="button" class="btn btn-primary btn-lg">Get Started</button>
                         </div>
                     </div>
-                    <div class="carousel-item active">
+                    <div class="carousel-item" data-bs-interval="2000">
                         <div style="background-color:black;">
                             <img src="./images/cover/cover-3.jpg" class="d-block w-100" style="opacity: .5;" alt="...">
                         </div>
-                        <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle w-75">
+                        <div
+                            class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle w-75">
                             <h1 style="font-family: 'Roboto Mono', monospace;">Let the career begin with <br> Confidence in skills</h1>
                             <p class="pt-4 pb-4">With experienced mentors and updated curriculum, DigiPro Learning Institute <br> is ready to advance your career. Choose your favorite course today from <br> our more than 30 trendy courses.</p>
                             <button type="button" class="btn btn-primary btn-lg">Get Started</button>
                         </div>
                     </div>
-                    
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-target="#carouselExampleInterval"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-target="#carouselExampleInterval"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
@@ -118,108 +118,64 @@
                 <h2>Discover Our Popular <br> Courses</h2>
                 <p><small>Our course list is arranged with those skills which are currently in most demand <br> in the country and outside the country. From here you can enroll in the <br> course online or offline anytime at your convenience.</small></p>
             </div>
-            <div class="d-flex justify-content-between">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="./images/course/course-1.png" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                                <p class="card-text"><small>This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</small></p>
-                                <p class="card-text text-primary">Price: 20$</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row">
+                <!-- 1st div  -->
+                <div class="col-md-12 col-lg-6 d-flex align-items-center border mb-3">
+                    <img src="./images/course/course-1.png" class="rounded-start img-fluid" alt="...">
+                    <div class="ps-3">
+                        <h5>Fundamental Of UI/UX Design</h5>
+                        <p><small>This course covers the UX/UI Design fundamentals and teaches you a few advanced ideas so that both levels ( beginner and intermediate ) can benefit from the course.</small></p>
+                        <p>Price: 18,000.00 bdt</p>
+                    </div>            
                 </div>
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="./images/course/course-2.png" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Javascript Basic to advanced</h5>
-                                <p class="card-text"><small>This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</small></p>
-                                <p class="card-text text-primary">Price: 20$</p>
-                            </div>
-                        </div>
-                    </div>
+                <!-- 2nd div  -->
+                <div class="col-md-12 col-lg-6 d-flex align-items-center border mb-3">
+                    <img src="./images/course/course-2.png" class="rounded-start img-fluid" alt="...">    
+                    <div class="ps-3">
+                        <h5>Javascript Basic to advanced</h5>
+                        <p><small>A perfect JavaScript course for all those who want to learn and master JavaScript programming skills right from scratch.</small></p>
+                        <p>Price: 24,000.00 bdt</p>
+                    </div>            
                 </div>
-            </div>
-            <div class="d-flex justify-content-between">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="./images/course/course-3.png" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Fullstack Web Development</h5>
-                                <p class="card-text"><small>This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</small></p>
-                                <p class="card-text text-primary">Price: 20$</p>
-                            </div>
-                        </div>
-                    </div>
+                <!-- 3rd div  -->
+                <div class="col-md-12 col-lg-6 d-flex align-items-center border mb-3">
+                    <img src="./images/course/course-3.png" class="rounded-start img-fluid" alt="...">   
+                    <div class="ps-3">
+                        <h5>Fullstack Web Development</h5>
+                        <p><small>Master your language with lessons, quizzes, and projects designed for real-life scenarios. Beginner-Friendly. Level Up Your Skills. Collaborative Learning. Choose Your Skill Path. Affordable Learning.</small></p>
+                        <p>Price: 28,000.00 bdt</p>
+                    </div>            
                 </div>
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="./images/course/course-4.png" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Digital Marketing</h5>
-                                <p class="card-text"><small>This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</small></p>
-                                <p class="card-text text-primary">Price: 20$</p>
-                            </div>
-                        </div>
-                    </div>
+                <!-- 4th div  -->
+                <div class="col-md-12 col-lg-6 d-flex align-items-center border mb-3">
+                    <img src="./images/course/course-4.png" class="rounded-start img-fluid" alt="...">   
+                    <div class="ps-3">
+                        <h5>Digital Marketing</h5>
+                        <p><small>Through digital marketing courses, any business or organization can promote its brand online. The majority of businesses have hired digital marketing companies to establish their presence online for revenue generation.</small></p>
+                        <p>Price: 8,000.00 bdt</p>
+                    </div>            
                 </div>
-            </div>
-            <div class="d-flex justify-content-between">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="./images/course/course-5.png" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">PHP Basic To advanced</h5>
-                                <p class="card-text"><small>This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</small></p>
-                                <p class="card-text text-primary">Price: 20$</p>
-                            </div>
-                        </div>
-                    </div>
+                <!-- 5th div  -->
+                <div class="col-md-12 col-lg-6 d-flex align-items-center border mb-3">
+                    <img src="./images/course/course-5.png" class="rounded-start img-fluid" alt="...">   
+                    <div class="ps-3">
+                        <h5>Photography Basic Rules</h5>
+                        <p><small>This complete guide to photography for beginners will walk you though everything you need to know about photography. Get started taking better photos today!.</small></p>
+                        <p>Price: 4,000.00 bdt</p>
+                    </div>            
                 </div>
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="./images/course/course-6.png" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Motion Graphics</h5>
-                                <p class="card-text"><small>This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</small></p>
-                                <p class="card-text text-primary">Price: 20$</p>
-                            </div>
-                        </div>
-                    </div>
+                <!-- 6th div  -->
+                <div class="col-md-12 col-lg-6 d-flex align-items-center border mb-3">
+                    <img src="./images/course/course-6.png" class="rounded-start img-fluid" alt="...">   
+                    <div class="ps-3">
+                        <h5>Motion Graphics</h5>
+                        <p><small>A practical structured course on combining frame-by-frame animation and After Effects. You will learn how to create frame-by-frame animation, add it to your first choice.</small></p>
+                        <p>Price:8,000.00 bdt</p>
+                    </div>            
                 </div>
-            </div>
-            <div class="text-center mt-3">
-                <button type="button" class="btn btn-primary"
-                    style="--bs-btn-padding-y: .65rem; --bs-btn-padding-x: 2rem; --bs-btn-font-size: 1rem;">See More
-                    Courses</button>
             </div>
         </section>
+        <!-- Courses Section End -->        
 
         <!-- Subscribe Section Start -->
         <section class="container rounded-3 bg-info" id="register">
@@ -233,7 +189,6 @@
                 <div>
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
                         data-bs-whatever="@mdo">Register Now</button>
-
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
                         <div class="modal-dialog">
@@ -258,18 +213,7 @@
                                         <input type="text" class="form-control" id="floatingInput"
                                             placeholder="name@example.com">
                                         <label for="floatingInput">Contact Number</label>
-                                    </div>
-                                    
-                                    <!-- <form>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Recipient:</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="message-text" class="col-form-label">Message:</label>
-                                            <textarea class="form-control" id="message-text"></textarea>
-                                        </div>
-                                    </form> -->
+                                    </div>                                    
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
@@ -283,6 +227,7 @@
                 </div>
             </div>
         </section>
+        <!-- Subscribe Section End -->
 
         <!-- FAQ Section Start-->
         <section class="container w-50">
@@ -293,57 +238,67 @@
             <div class="pb-5">
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Difference between Flexbox and Grid
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Dimensions define the primary demarcation</strong> between Flexbox and CSS Grid. Flexbox was designed specifically for one-dimensional layouts, while CSS Grid is engineered to enable two-dimensional layouts. Therefore, CSS Grid can easily render rows and columns simultaneously. The Flexbox layout is best suited to application components and small-scale layouts, while the Grid layout is designed for larger-scale layouts that are not linear in design.                            
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Difference between Flexbox and Grid
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Dimensions define the primary demarcation</strong> between Flexbox and CSS Grid. Flexbox was designed specifically for one-dimensional layouts, while CSS Grid is engineered to enable two-dimensional layouts. Therefore, CSS Grid can easily render rows and columns simultaneously. The Flexbox layout is best suited to application components and small-scale layouts, while the Grid layout is designed for larger-scale layouts that
+                                are not linear in design.
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Difference between Bootstrap and Tailwind
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Developers describe Bootstrap as <strong>"Simple and flexible HTML, CSS, and JS for popular UI components and interactions".</strong> Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. On the other hand, Tailwind CSS is detailed as <strong>"A utility-first CSS framework for rapid UI development".</strong> Tailwind is different from frameworks like Bootstrap, Foundation, or Bulma in that it's not a UI kit. It doesn't have a default theme, and there are no build-in UI components. It comes with a menu of predesigned widgets to build your site with, but doesn't impose design decisions that are difficult to undo.
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Difference between Bootstrap and Tailwind
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Developers describe Bootstrap as <strong>"Simple and flexible HTML, CSS, and JS for popular UI components and interactions".</strong> Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. On the other hand, Tailwind CSS is detailed as <strong>"A utility-first CSS framework for rapid UI development".</strong> Tailwind is different from frameworks like
+                                Bootstrap, Foundation, or Bulma in that it's not a UI kit. It doesn't have a default theme, and there are no build-in UI components. It comes with a menu of predesigned widgets to build your site with, but doesn't impose design decisions that are difficult to undo.
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          What is CSS Box Model?
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            In CSS, the term <strong>"box model"</strong> is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. CSS3 has two box-models. <strong>content-box and border-box</strong>, content-box is the default.
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is CSS Box Model?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                In CSS, the term <strong>"box model"</strong> is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. CSS3 has two box-models. <strong>content-box and border-box</strong>, content-box is the default.
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          What is a Semantic Tag?
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body d-print-none">
-                            <strong>Semantic Elements in HTML</strong>
-                            Many web sites contain HTML code like: <div id="nav"> <div class="header"> <div id="footer"> to indicate navigation, header, and footer. In HTML there are some semantic elements that can be used to define different parts of a web page: <br> 
-                            article, aside, figcaption, figure, footer, header, main, mark, nav, section, summary, time
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is a Semantic Tag?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body d-print-none">
+                                <strong>Semantic Elements in HTML</strong>
+                                Many web sites contain HTML code like: <div id="nav">
+                                    <div class="header">
+                                        <div id="footer"> to indicate navigation, header, and footer. In HTML there are some semantic elements that can be used to define different parts of a web page: <br> article, aside, figcaption, figure, footer, header, main, mark, nav, section, summary, time
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
         </section>
         <!-- FAQ Section End-->
 
@@ -370,7 +325,7 @@
                 </div>
                 <div>
                     <img src="./images/company/company-6.png" class="img-fluid w-75" alt="">
-                </div>                
+                </div>
             </div>
         </section>
         <!-- Trusted By Companies Section End-->
@@ -378,16 +333,18 @@
     <footer class="bg-dark">
         <div class="text-center text-white pt-5">
             <h1>DigiPro</h1>
-            <p><small>Office 41, Sector-18, Uttara, <br> Dhaka, Bangladesh <br> Privacy Ploicy  |   Terms of use</small></p>
+            <p><small>Office 41, Sector-18, Uttara, <br> Dhaka, Bangladesh <br> Privacy Ploicy | Terms of use</small>
+            </p>
         </div>
-        <div class="text-center pb-5">            
+        <div class="text-center pb-5">
             <a href=""><img src="./images/social-icons/facebook.png" alt=""></a>
             <a href=""><img src="./images/social-icons/twitter.png" alt=""></a>
             <a href=""><img src="./images/social-icons/youtube.png" alt=""></a>
             <a href=""><img src="./images/social-icons/linkedin.png" alt=""></a>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
-
 </html>
