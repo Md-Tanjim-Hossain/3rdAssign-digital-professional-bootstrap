@@ -1,6 +1,4 @@
-body{
-    background-color: rgb(253, 239, 236);
-}
+
 @media screen and (max-width: 576px) {
     .d-flex.align-items-center.border.border-1.rounded-end {
        
